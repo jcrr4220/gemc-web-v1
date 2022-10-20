@@ -3,7 +3,7 @@ import {Link, NavLink} from 'react-router-dom'
 import Logo from '../images/logo.png'
 import {links} from '../data'
 import {FiMenu} from 'react-icons/fi'
-import {MdOutlineClose} from 'react-icons/md'
+import {AiOutlineMinus} from 'react-icons/ai'
 import './navbar.css'
 
 const Navbar = () => {
@@ -28,7 +28,7 @@ const Navbar = () => {
             </ul>
             <button className="nav__toggle-btn" onClick={() => setIsNavShowing(prev => !prev)}>
                 {
-                  isNavShowing ? <MdOutlineClose/> : <FiMenu/>
+                  isNavShowing ? <AiOutlineMinus/> : <FiMenu/>
                 }
             </button>
         </div>

@@ -16,7 +16,10 @@ const Footer = () => {
                     <img src={Logo} alt="Footer Logo" />
                 </Link>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci rem, quidem saepe dolor modi quis architecto maxime doloribus debitis?
+                    Gestão de Equipamentos do Muncipio de Chaves, EM SA<br />
+                    Largo das Caldas<br />
+                    5400-534 Chaves<br />
+                    Portugal
                 </p>
                 <div className="footer__socials">
                     <a href="https://linkedin.com" target="_blank" rel='noreferrer noopener'><FaLinkedin/></a>
@@ -34,12 +37,10 @@ const Footer = () => {
                 <Link to="/contact">Contacto</Link>
             </article>
             <article>
-                <h4>Pensamentos</h4>
-                <Link to="/s">Blog</Link>
-                <Link to="/s">Casos de Estudo</Link>
-                <Link to="/s">Eventos</Link>
-                <Link to="/s">Comunidades</Link>
-                <Link to="/s">FAQs</Link>
+                <h4>Legal</h4>
+                <Link to="/s">Política de Cookies</Link>
+                <Link to="/s">Política de Privacidade</Link>
+                <a href="https://www.livroreclamacoes.pt/Inicio/" target="_blank" rel='noreferrer noopener'>Reclamações</a>
             </article>
             <article>
                 <h4>Entre em Contacto</h4>
@@ -48,7 +49,7 @@ const Footer = () => {
             </article>
         </div>
         <div className="footer__copyright">
-            <small>2022 GEMC, EM SA &copy; Todos os direitos reservados</small>
+            <small>&copy; GEMC, EM SA. Todos os direitos reservados.</small>
         </div>
     </footer>
   )
