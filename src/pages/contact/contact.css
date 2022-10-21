@@ -1,0 +1,27 @@
+.contact__container {
+    display: grid;
+    place-items: center;
+}
+
+.contact__wrapper {
+    width: fit-content;
+    display: flex;
+    gap: 2rem;
+}
+
+.contact__wrapper a {
+    background: var(--color-gemc-blue);
+    font-size: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+
+.contact__wrapper svg {
+    color: white;
+}
+
+.contact__wrapper a:hover {
+    background: var(--color-secondary);
+}

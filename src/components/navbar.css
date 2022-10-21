@@ -1,7 +1,6 @@
 nav {
     height: 5rem;
     width: 100vw;
-    /* background: var(--color-primary); */
     background: #e6f4fd;
     display: grid;
     place-items: center;
@@ -37,6 +36,7 @@ nav {
 
 .nav__links a {
     transition: var(--transition);
+    color: var(--color-gemc-blue);
 }
 
 .nav__links a:hover {

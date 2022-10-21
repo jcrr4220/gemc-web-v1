@@ -28,14 +28,14 @@ const Footer = () => {
                     <a href="https://instagram.com" target="_blank" rel='noreferrer noopener'><AiFillInstagram/></a>
                 </div>
             </article>
-            <article>
+            {/*<article>
                 <h4>Permalinks</h4>
                 <Link to="/about">Somos</Link>
                 <Link to="/plans">Planos</Link>
                 <Link to="/trainers">Governo</Link>
                 <Link to="/gallery">Galeria</Link>
                 <Link to="/contact">Contacto</Link>
-            </article>
+               </article>*/}
             <article>
                 <h4>Legal</h4>
                 <Link to="/s">Política de Cookies</Link>
