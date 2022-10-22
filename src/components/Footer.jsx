@@ -22,10 +22,10 @@ const Footer = () => {
                     Portugal
                 </p>
                 <div className="footer__socials">
-                    <a href="https://linkedin.com" target="_blank" rel='noreferrer noopener'><FaLinkedin/></a>
-                    <a href="https://fb.com" target="_blank" rel='noreferrer noopener'><FaFacebookF/></a>
+                    <a href="https://linkedin.com/company/termasdechaves" target="_blank" rel='noopener noreferrer'><FaLinkedin/></a>
+                    <a href="https://fb.com/termasdechaves" target="_blank" rel='noreferrer noopener'><FaFacebookF/></a>
                     <a href="https://twitter.com" target="_blank" rel='noreferrer noopener'><AiOutlineTwitter/></a>
-                    <a href="https://instagram.com" target="_blank" rel='noreferrer noopener'><AiFillInstagram/></a>
+                    <a href="https://instagram.com/termasdechaves" target="_blank" rel='noreferrer noopener'><AiFillInstagram/></a>
                 </div>
             </article>
             {/*<article>

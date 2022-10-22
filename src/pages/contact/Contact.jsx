@@ -15,8 +15,8 @@ const Contact = () => {
     <section className="contact">
       <div className="container contact__container">
         <div className="contact__wrapper">
-          <a href="mailto:geral@emchaves.com" target="_blank" rel="noreferrer noopener"><MdEmail/></a>
-          <a href="http://m.me/ernest_achiever" target="_blank" rel="noreferrer noopener"><BsMessenger/></a>
+          <a href="mailto:geral.termas@chaves.pt" target="_blank" rel="noreferrer noopener"><MdEmail/></a>
+          <a href="http://m.me/termasdechaves" target="_blank" rel="noreferrer noopener"><BsMessenger/></a>
           <a href="https://wa.me/+351968493306" target="_blank" rel="noreferrer noopener"><IoLogoWhatsapp/></a>
         </div>
       </div>

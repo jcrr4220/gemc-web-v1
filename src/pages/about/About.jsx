@@ -19,7 +19,7 @@ const About = () => {
        <div className="about__section-content">
         <h1>A Nossa História</h1>
         <p>
-          A GEMC EM, foi constituída por escritura lavrada em 23 de Abril de 2014, rege-se pelos seus estatutos, pelo regime jurídico da atividade empresarial local, consagrado na Lei n.º 50/2012, de 31 de Agosto e, no que ali não for especialmente regulado, pela lei comercial e, subsidiariamente, pelo regime do setor empresarial, do Estado.
+          A GEMC EM, foi constituída por escritura lavrada em 05 de Fevereiro de 2004, rege-se pelos seus estatutos, alterados por deliberação da Assembleia Geral em Março de 2014, pelo regime jurídico da atividade empresarial local, consagrado na Lei n.º 50/2012, de 31 de Agosto e, no que ali não for especialmente regulado, pela lei comercial e, subsidiariamente, pelo regime do setor empresarial, do Estado.
         </p>
        </div>
      </div>
