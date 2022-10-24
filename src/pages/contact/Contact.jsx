@@ -10,7 +10,8 @@ const Contact = () => {
   return (
     <>
     <Header title="Entre em Contacto" image={HeaderImage}>
-     Para tal, a empresa municipal tem apostado na divulgação dos benefícios do programa junto de proprietários poderem ver realizadas obras de benfeitoria no interior das habitações; e receberem até um ano de renda adiantada.
+      Interessado em mais informação?<br/>
+      Entre em contacto connosco hoje.
     </Header>
     <section className="contact">
       <div className="container contact__container">

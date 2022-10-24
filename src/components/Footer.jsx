@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import Logo from '../images/logo.png'
-import { FaLinkedin } from "react-icons/fa"
+import { FaLinkedinIn } from "react-icons/fa"
 import { FaFacebookF } from "react-icons/fa"
 import { AiOutlineTwitter } from "react-icons/ai"
 import { AiFillInstagram } from "react-icons/ai"
@@ -22,7 +22,7 @@ const Footer = () => {
                     Portugal
                 </p>
                 <div className="footer__socials">
-                    <a href="https://linkedin.com/company/termasdechaves" target="_blank" rel='noopener noreferrer'><FaLinkedin/></a>
+                    <a href="https://linkedin.com/company/termasdechaves" target="_blank" rel='noopener noreferrer'><FaLinkedinIn/></a>
                     <a href="https://fb.com/termasdechaves" target="_blank" rel='noreferrer noopener'><FaFacebookF/></a>
                     <a href="https://twitter.com" target="_blank" rel='noreferrer noopener'><AiOutlineTwitter/></a>
                     <a href="https://instagram.com/termasdechaves" target="_blank" rel='noreferrer noopener'><AiFillInstagram/></a>
@@ -49,7 +49,7 @@ const Footer = () => {
             </article>
         </div>
         <div className="footer__copyright">
-            <small>&copy; GEMC, EM SA. Todos os direitos reservados.</small>
+            <small>&copy; 2022 Gestao Equipamentos Municpio Chaves, EM SA.</small>
         </div>
     </footer>
   )
