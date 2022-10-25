@@ -13,7 +13,8 @@ const Footer = () => {
         <div className="container footer__container">
             <article>
                 <Link to="/" className='logo'>
-                    <img src={Logo} alt="Footer Logo" />
+                    {/*<img src={Logo} alt="Footer Logo" />*/}
+                    <h1>gemc.</h1>
                 </Link>
                 <p>
                     Gestão de Equipamentos do Muncipio de Chaves, EM SA<br />
