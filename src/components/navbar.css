@@ -1,3 +1,7 @@
+/* navbar.css
+// Autor: Joao Rocha
+// Date: 2022/10/20 */
+
 nav {
     height: 5rem;
     width: 100vw;
@@ -26,7 +30,7 @@ nav {
 
 .logo {
      width: 7rem;
-     display: block;
+     /* display: block; */
 }
 
 .logo h1 {

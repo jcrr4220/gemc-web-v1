@@ -1,6 +1,10 @@
+// Navbar.jsx
+// Autor: Joao Rocha
+// Date: 2022/10/20
+
 import { useState } from 'react'
 import {Link, NavLink} from 'react-router-dom'
-import Logo from '../images/logo_w.png'
+// import Logo from '../images/logo_w.png'
 import {links} from '../data'
 import {FiMenu} from 'react-icons/fi'
 import {AiOutlineMinus} from 'react-icons/ai'
@@ -16,7 +20,7 @@ const Navbar = () => {
                 <img src={Logo} alt="Nav Logo" />
                </Link>*/}
             <Link to="/" className='logo' onClick={() => setIsNavShowing(false)}>
-                <h1>gemc.</h1>
+                <h1>gemc</h1>
             </Link>
             <ul className={`nav__links ${isNavShowing ? 'show__nav' : 'hide__nav'}`}>
               {

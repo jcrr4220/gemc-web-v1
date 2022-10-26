@@ -1,3 +1,7 @@
+// App.jsx
+// Autor: Joao Rocha
+// Date: 2022/10/25
+
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 import Home from './pages/home/Home'
@@ -9,20 +13,23 @@ import Trainers from './pages/trainers/Trainers'
 import NotFound from './pages/notFound/NotFound'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import ScrollToTop from './components/ScrollToTop'
 
 const App = () => {
   return (
     <BrowserRouter>
       <Navbar/>
-      <Routes>
-        <Route index element={<Home />}/>
-        <Route path='about' element={<About />}/>
-        <Route path='contact' element={<Contact />}/>
-        <Route path='gallery' element={<Gallery />}/>
-        <Route path='plans' element={<Plans />}/>
-        <Route path='trainers' element={<Trainers />}/>
-        <Route path='*' element={<NotFound />}/>
-      </Routes>
+       <ScrollToTop>
+        <Routes>
+         <Route index element={<Home />}/>
+         <Route path='about' element={<About />}/>
+         <Route path='contact' element={<Contact />}/>
+         <Route path='gallery' element={<Gallery />}/>
+         <Route path='plans' element={<Plans />}/>
+         <Route path='trainers' element={<Trainers />}/>
+         <Route path='*' element={<NotFound />}/>
+        </Routes>
+       </ScrollToTop>
       <Footer/>
     </BrowserRouter>
   )

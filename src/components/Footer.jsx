@@ -1,5 +1,9 @@
+// Footer.jsx
+// Autor: Joao Rocha
+// Date: 2022/10/25
+
 import { Link } from "react-router-dom"
-import Logo from '../images/logo.png'
+// import Logo from '../images/logo.png'
 import { FaLinkedinIn } from "react-icons/fa"
 import { FaFacebookF } from "react-icons/fa"
 import { AiOutlineTwitter } from "react-icons/ai"
@@ -14,7 +18,7 @@ const Footer = () => {
             <article>
                 <Link to="/" className='logo'>
                     {/*<img src={Logo} alt="Footer Logo" />*/}
-                    <h1>gemc.</h1>
+                    <h1>gemc</h1>
                 </Link>
                 <p>
                     Gestão de Equipamentos do Muncipio de Chaves, EM SA<br />
@@ -50,7 +54,7 @@ const Footer = () => {
             </article>
         </div>
         <div className="footer__copyright">
-            <small>&copy; 2022 Gestao Equipamentos Municpio Chaves, EM SA.</small>
+            <small>&copy; 2022 Gestao Equipamentos Municipio Chaves, EM SA.</small>
         </div>
     </footer>
   )
